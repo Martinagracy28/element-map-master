@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'AvenirNext LT Pro';
+    src: url('fonts/AvenirNextLTPro-Regular.eot');
+    src: url('fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNextLTPro-Regular.woff2') format('woff2'),
+        url('fonts/AvenirNextLTPro-Regular.woff') format('woff'),
+        url('fonts/AvenirNextLTPro-Regular.ttf') format('truetype'),
+        url('fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNext LT Pro';
+    src: url('fonts/AvenirNextLTPro-Medium.eot');
+    src: url('fonts/AvenirNextLTPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNextLTPro-Medium.woff2') format('woff2'),
+        url('fonts/AvenirNextLTPro-Medium.woff') format('woff'),
+        url('fonts/AvenirNextLTPro-Medium.ttf') format('truetype'),
+        url('fonts/AvenirNextLTPro-Medium.svg#AvenirNextLTPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNext LT Pro';
+    src: url('fonts/AvenirNextLTPro-Heavy.eot');
+    src: url('fonts/AvenirNextLTPro-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNextLTPro-Heavy.woff2') format('woff2'),
+        url('fonts/AvenirNextLTPro-Heavy.woff') format('woff'),
+        url('fonts/AvenirNextLTPro-Heavy.ttf') format('truetype'),
+        url('fonts/AvenirNextLTPro-Heavy.svg#AvenirNextLTPro-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNext LT Pro';
+    src: url('fonts/AvenirNextLTPro-Demi.eot');
+    src: url('fonts/AvenirNextLTPro-Demi.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNextLTPro-Demi.woff2') format('woff2'),
+        url('fonts/AvenirNextLTPro-Demi.woff') format('woff'),
+        url('fonts/AvenirNextLTPro-Demi.ttf') format('truetype'),
+        url('fonts/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNext LT Pro';
+    src: url('fonts/AvenirNextLTPro-Bold.eot');
+    src: url('fonts/AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNextLTPro-Bold.woff2') format('woff2'),
+        url('fonts/AvenirNextLTPro-Bold.woff') format('woff'),
+        url('fonts/AvenirNextLTPro-Bold.ttf') format('truetype'),
+        url('fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('fonts/NeueMontreal-Medium.eot');
+    src: url('fonts/NeueMontreal-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NeueMontreal-Medium.woff2') format('woff2'),
+        url('fonts/NeueMontreal-Medium.woff') format('woff'),
+        url('fonts/NeueMontreal-Medium.ttf') format('truetype'),
+        url('fonts/NeueMontreal-Medium.svg#NeueMontreal-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('fonts/NeueMontreal-Regular.eot');
+    src: url('fonts/NeueMontreal-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NeueMontreal-Regular.woff2') format('woff2'),
+        url('fonts/NeueMontreal-Regular.woff') format('woff'),
+        url('fonts/NeueMontreal-Regular.ttf') format('truetype'),
+        url('fonts/NeueMontreal-Regular.svg#NeueMontreal-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('fonts/NeueMontreal-Light.eot');
+    src: url('fonts/NeueMontreal-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NeueMontreal-Light.woff2') format('woff2'),
+        url('fonts/NeueMontreal-Light.woff') format('woff'),
+        url('fonts/NeueMontreal-Light.ttf') format('truetype'),
+        url('fonts/NeueMontreal-Light.svg#NeueMontreal-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url('fonts/NeueMontreal-Bold.eot');
+    src: url('fonts/NeueMontreal-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NeueMontreal-Bold.woff2') format('woff2'),
+        url('fonts/NeueMontreal-Bold.woff') format('woff'),
+        url('fonts/NeueMontreal-Bold.ttf') format('truetype'),
+        url('fonts/NeueMontreal-Bold.svg#NeueMontreal-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

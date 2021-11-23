@@ -1,0 +1,285 @@
+@media screen and (max-width: 1600px) {
+    .info-card-icon svg{
+        width: 120px;
+        height: 120px;
+    }
+    .info-card-icon{
+        top: -30px;
+    }
+    .info-card{
+        font-size: 16px;
+    }
+    .info-card-body p {
+        min-height: 150px;
+    }
+    .py-100 {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    .card-sale{
+        font-size: 14px;
+    }
+    .card-sale-info h3 {
+        font-size: 24px;
+    }
+    .card-sale-info img{
+        margin-right: 8px;
+    }
+}
+
+@media screen and (min-width: 1341px) {
+    .header{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .sidebar{
+        left: -210px;
+        position: absolute;
+        transition: all 0.3s ease-out;
+    }
+    .sidebar:before{
+        left: 0;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+        top: 0;
+        right: 0;
+        
+        z-index: -1;
+        content: "";
+        height: 100%;
+        opacity: 0.3;
+        position: fixed;
+        visibility: hidden;
+        pointer-events: none;
+        background-color: #fff;
+    }
+    .sidebar.active{
+        left: 0;
+        position: fixed;
+    }
+    .sidebar.active:before{
+        left: 210px;
+        opacity: 0.3;
+        visibility: visible;
+    }
+    .header-top, .dashboard-view, .dashboard-footer{
+        margin-left: 0;
+    }
+    .header-top{
+        padding: 15px;
+    }
+    .btn-menu{
+        display: block;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    /* .btn-menu:not(.active) .bi-x-lg{
+        display: none;
+    }
+    .btn-menu.active .bi-list{
+        display: none;
+    } */
+    .side{
+        display: none;
+    }
+}
+
+@media (max-width: 1199px){
+    .hstack{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 991px){
+    .py-100 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .subtitle {
+        margin-bottom: 35px;
+    }
+    .title-about{
+        margin-bottom: 45px;
+    }
+    .home-banner h4 {
+        margin-bottom: 25px;
+    }
+    .platform-title{
+        margin-top: 40px;
+    }
+    .home-banner{
+        padding-top: 120px;
+        padding-bottom: 40px;
+    }
+    h2.bottom-title{
+        margin-top: 50px;
+    }
+    h1{
+        font-size: 46px;
+    }
+    .feature-item{
+        padding: 15px;
+        font-size: 16px;
+        min-height: 165px;
+    }
+    .team-item {
+        font-size: 18px;
+    }
+    .invester-item{
+        font-size: 18px;
+        min-height: 100px;
+    }
+    .team-item-icon{
+        height: 88px;
+        width: 88px;
+        min-width: 88px;
+    }
+    .team-member{
+        font-size: 15px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    .footer{
+        font-size: 14px;
+    }
+    .info-card-icon{
+        margin-bottom: -20px;
+    }
+    .info-card-body p {
+        min-height: 115px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .bt-card svg{
+        width: 42px;
+        height: 42px;
+        min-width: 42px;
+    }
+    .bt-card{
+        padding: 20px;
+        font-size: 18px;
+    }
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body{
+        font-size: 16px;
+    }
+    .footer{
+        padding: 40px 0 !important;
+    }
+    .footer-logo{
+        justify-content: center;
+    }
+    h2{
+        font-size: 28px;
+        line-height: 37px;
+    }
+    h2.bottom-title{
+        font-size: 26px;
+    }
+    h2.bottom-title svg{
+        left: -45px;
+        max-width: 180px;
+        top: -18px;
+    }
+    .btn{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .table .btn {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+    .dashboard-footer a{
+        margin-left: 0;
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+    }
+    .dashboard-footer{
+        padding: 15px 20px;
+    }
+    big{
+        font-size: 0.8em;
+    }
+    .tab-card{
+        padding: 15px;
+    }
+    .tab-card-heading img{
+        margin-right: 10px;
+    }
+    .nav-tabs li{
+        margin-right: 5px;
+    }
+    .py-100 {
+        padding-top: 45px;
+        padding-bottom: 60px;
+    }
+    .home-banner{
+        background-position: top left;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .card-sale-info > div, .card-sale-info > div:nth-child(2){
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .card-sale-info p{
+        margin-bottom: 0px;
+        margin-right: auto;
+    }
+    .card-sale-status{
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .card-sale-info img{
+        max-width: 25px;
+        margin-right: 10px;
+    }
+    .price{
+        font-size: 26px;
+    }
+    .dashboard-footer a{
+        max-width: 45%;
+        flex: 0 0 45%;
+    }
+    .grad-line span:after{
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav-tabs li button.nav-link{
+        font-size: 14px;
+        min-width: auto;
+        font-weight: 500;
+        padding: 8px 16px;   
+    }
+    .tab-card-heading img{
+        width: 42px;
+    }
+    .tab-content{
+        padding: 15px;
+    }
+    .stak-card{
+        padding: 12px;
+    }
+    .stak-card.px-4{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .nav-tabs li button.nav-link{
+        border-radius: 15px 15px 0 0;
+    }
+}
