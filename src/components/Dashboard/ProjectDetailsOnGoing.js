@@ -136,8 +136,8 @@ function Airdrops() {
       // let decAddr = algosdk.decodeAddress('EGUSS7HHM3ODVPW3Z2L55WPCZCR4TWSN2VVAKYPZKYEUER5BXM5N6YNH7I');
       // appArgs.push(decAddr.publicKey);
       //   console.log("(line:516) appArgs = ",appArgs)
-      localStorage.setItem("escrow", 'Y7OLSW6BRNZYJIZOXZUBWSCEEZZNSA7WY5EFBT7AM3HLOYMOMF7P5RW544');
-        let recv_escrow = "Y7OLSW6BRNZYJIZOXZUBWSCEEZZNSA7WY5EFBT7AM3HLOYMOMF7P5RW544";
+      localStorage.setItem("escrow", 'UV5BFDBT2PEZE2JR3Z2CDZW4UER6OA7FTHT6DYXEMEFJQXSRSBKXGLECSU');
+        let recv_escrow = "UV5BFDBT2PEZE2JR3Z2CDZW4UER6OA7FTHT6DYXEMEFJQXSRSBKXGLECSU";
         // create unsigned transaction
         let transaction1 = algosdk.makeApplicationNoOpTxn(sender, params, index, appArgs)
         
