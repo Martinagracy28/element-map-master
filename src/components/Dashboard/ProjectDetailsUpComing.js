@@ -269,7 +269,7 @@ var countDowndate   =us * 1000;
 }
 
 const fetch = async () => {
-let index = 46847111; //current app id need to be entered
+let index = 47004938; //current app id need to be entered
 setappid(index);
 // await sleep(10000)
 await globalState(index);

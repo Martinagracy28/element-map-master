@@ -134,7 +134,7 @@ const globalState = async (index) =>
 useEffect(async() =>{first()},[goal, startdt, enddt, total])
 
 const first = async () => {
-  let index = 46847111; //current app id need to be entered
+  let index = 47004938; //current app id need to be entered
 //   localStorage.setItem("appId", index);
     globalState(index);
    
