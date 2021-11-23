@@ -200,7 +200,7 @@ console.log("----mapPercent----", mapPercent);
         return (
             <Row>
                 <Col lg={6} className="mb-4">
-                    <Link className="card-sale d-flex flex-column" to="/product-detail">
+                    <Link className="card-sale d-flex flex-column" to="/product-detail-Upcoming">
                         <div className="card-sale-heading d-flex flex-wrap align-items-start justify-content-between">
                             <div className="card-sale-status order-sm-2 ms-auto mb-sm-0 mb-2 d-flex align-items-center">
                                 <span className="status badge">

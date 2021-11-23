@@ -13,6 +13,7 @@ import Airdrops from './components/Dashboard/Airdrops';
 import Stats from './components/Dashboard/Stats';
 import Account from './components/Dashboard/Account';
 import ProductDetail from './components/Dashboard/ProjectDetails';
+import ProductDetailUpComing from './components/Dashboard/ProjectDetailsUpComing';
 import ProductDetailOnGoing from './components/Dashboard/ProjectDetailsOnGoing';
 import Login from './components/Login';
 import MyProfile from './components/Dashboard/MyProfile';
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route path="/product-detail">
           <ProductDetail />
+        </Route>
+        <Route path="/product-detail-Upcoming">
+          <ProductDetailUpComing />
         </Route>
         <Route path="/product-detail-Ongoing">
           <ProductDetailOnGoing />
