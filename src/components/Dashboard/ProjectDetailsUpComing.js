@@ -453,7 +453,7 @@ let mapPercent = parseFloat(ReactDomServer.renderToString(mapTotal))/parseFloat(
                                     <img src={Logo} alt="logo" />
                                     <div className="ms-2">
                                         <p className="mb-0"></p>
-                                        <h3 className="mb-0">IRIS</h3>
+                                        <h3 className="mb-0">CIFI</h3>
                                     </div>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button className="btn btn-cta ms-auto" style={{backgroundColor: "#e7e7e7"}} onClick={()=>setIsOpenOpt(true)}>Opt-In</button> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(opt-in only one time)</p>
                                 </div>

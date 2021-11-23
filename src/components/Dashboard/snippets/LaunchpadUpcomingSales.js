@@ -213,7 +213,7 @@ console.log("----mapPercent----", mapPercent);
                                 <img src={Status} className="ms-3" alt="Status" />
                             </div>
                             <div className="card-sale-title">
-                                <h3 className="d-flex mb-2 align-items-center"><img src={Logo} alt="logo" /> IRIS</h3>
+                                <h3 className="d-flex mb-2 align-items-center"><img src={Logo} alt="logo" /> CIFI</h3>
                                 {/* <p>1 CRA = 0.00022 Algos</p> */}
                             </div>
                         </div>
